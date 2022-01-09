@@ -1,0 +1,25 @@
+{
+  "name": "voting-dapp",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@celo-tools/use-contractkit": "^2.1.2",
+    "@celo/contractkit": "^1.5.1",
+    "bignumber.js": "^9.0.2",
+    "next": "12.0.7",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.8",
+    "@types/react": "^17.0.38",
+    "eslint": "8.6.0",
+    "eslint-config-next": "12.0.7",
+    "typescript": "^4.5.4"
+  }
+}
